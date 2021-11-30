@@ -1,0 +1,237 @@
+body{
+  background: #F57F17;
+}
+.container{
+  position: absolute;
+  top: 65%;
+  left: 32.5%;
+}
+.plate{
+  width: 470px;
+  height: 10px;
+  background:black;
+}
+.teapot{
+  position: absolute;
+  top: -1451%;
+    left: 53%;
+  width: 200px;
+  height: 150px;
+  background: black;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  animation: move 11000ms linear;
+}
+@keyframes move{
+  0%{
+    top: -1451%;
+    left: 53%;
+  }
+  50%{
+    transform: rotate(-30deg);
+    top: -3013%;
+    left: 33%;
+  }
+  60%{
+    transform: rotate(-30deg);
+    top: -3013%;
+    left: 33%;
+  }
+  70%{
+    transform: rotate(-30deg);
+    top: -3013%;
+    left: 33%;
+  }
+}
+.line{
+  position: absolute;
+  top: 86%;
+  left: 0%;
+  width: 200px;
+  height: 10px;
+  background: wheat;
+}
+.treflection{
+  position: absolute;
+  top: 3%;
+  left: 37%;
+  background: wheat;
+  width: 50px;
+  height: 16px;
+  border-radius: 50%;
+}
+.top{
+  position: absolute;
+  top: -4%;
+  left: 44.5%;
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 5px;
+}
+.mreflection{
+  position: absolute;
+  top: 19%;
+  left: 30%;
+  border: 10px solid wheat;
+	border-color: transparent transparent transparent white;
+	height: 80px;
+	width: 100px;
+	border-radius: 250px 0 0 260px;
+  transform: rotate(153deg);
+}
+.handle{
+  position: absolute;
+  top: -30%;
+  left: 7.5%;
+  width: 150px;
+  height: 150px;
+  border: 10px solid black;
+  border-radius: 35px;
+}
+.hold{
+  position: absolute;
+  top: -34%;
+  left: 31%;
+  background: black;
+  width: 75px;
+  height: 30px;
+  border-radius: 10px;
+}
+.extend{
+  position: absolute;
+  top: 4%;
+  left: -11%;
+  background: black;
+  height: 90px;
+  width: 30px;
+  transform: rotate(303deg);
+}
+.inner{
+  position: absolute;
+  top: 12%;
+  left: -11%;
+  background: wheat;
+  width: 15px;
+  height: 55px;
+  transform: rotate(303deg);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.cup{
+  position: absolute;
+  top: -1184%;
+  left: 7%;
+  width: 100px;
+  height: 120px;
+  background: black;
+  border-radius: 10px;
+}
+.chandel{
+  position: absolute;
+  top: 24%;
+  left: 77%;
+  width: 30px;
+  height: 40px;
+  border: 10px solid black;
+  border-radius: 10px;
+}
+.cross1{
+  position: absolute;
+  top: 28%;
+  left: 43%;
+  width: 10px;
+  height: 61px;
+  background: wheat;
+  transform: rotate(321deg);
+}
+.cross2{
+  position: absolute;
+  top: 28%;
+  left: 41%;
+  width: 10px;
+  height: 61px;
+  background: wheat;
+  transform: rotate(-321deg);
+}
+.pour{
+  position: absolute;
+  top: 0%;
+  left: -56%;
+  border: 15px solid #BE5F4B;
+	border-color: transparent transparent transparent wheat;
+	height: 102px;
+	width: 45px;
+	border-radius: 200px 0 0 218px;
+  transform: rotate(49deg);
+  animation: appear 10s linear;
+  z-index: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes appear{
+  0%{
+    display: none;
+    opacity: 0%;
+  }
+  10%{
+    opacity: 0%;
+  }
+  20%{
+    display: block;
+    opacity: 0%;
+  }
+  30%{
+    display: block;
+    opacity: 100%;
+  }
+  40%{
+    display: block;
+    opacity: 100%;
+  }
+  50%{
+    display: block;
+    opacity: 100%;
+  }
+  60%{
+    display: block;
+    opacity: 100%;
+  }
+  70%{
+    display: block;
+    opacity: 80%;
+  }
+  80%{
+    display: block;
+    opacity: 50%;
+  }
+  90%{
+    display: block;
+    opacity: 10%;
+  }
+  100%{
+    opacity: 0%;
+  }
+}
+.coffee{
+  position: absolute;
+  top: 2%;
+  left: 12.5%;
+  width: 77px;
+  height: 7px;
+  border-radius: 50%;
+  display: block;
+  animation: fill 5s linear;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+@keyframes fill{
+  100%{
+    position: absolute;
+  top: 2%;
+  left: 12.5%;
+  width: 77px;
+  height: 7px;
+  background: wheat;
+  border-radius: 50%;
+  }
+}
